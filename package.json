@@ -1,0 +1,15 @@
+  
+{
+  "name": "Ana",
+  "version": "1.0.0",
+  "description": "Codigo base",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
