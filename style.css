@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../assets/Montserrat-Light.woff2") format("woff2");
+  font-style: Light;
+  font-weight: 400;
+}
+
 *{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -11,7 +18,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul{
 body{background:#000000;font-family: 'Montserrat-Thin', sans-serif;color:#000000;font-size:14px;font-weight: 100;
 }
 p{
-  margin-bottom: :50px;
+  margin-bottom:50px;
 }
 h1{
   font-family: 'Montserrat-Thin', sans-serif;color:#ffffff;font-size:12px;font-weight: 100;
@@ -25,11 +32,23 @@ h3{
 h4,h5,h8{
   font-family: 'Montserrat-ExtraBoldItalic', sans-serif;color:#ffffff;font-size:50px;text-align: left;
 }
-}
 h6{
   font-family: 'Montserrat-BoldItalic', sans-serif;color:#ffffff;font-size:25px;font-weight: 700;
 }
+.lineup{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-family: 'Montserrat-Light'
+  font-size 19px;
+  color:#ffffff;
+ padding-left: 413px;
+ padding-bottom: 39px;
 
+}
+
+.lineup1{
+ padding-bottom: 115px;
+}
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
