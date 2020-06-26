@@ -72,6 +72,11 @@ a {
 .tabla {
   display: grid;
   grid-template-columns: 1fr 7fr 1fr;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .columna3 {
   padding-left: 120px;
