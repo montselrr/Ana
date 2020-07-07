@@ -58,9 +58,9 @@ a {
   color: #cfd704;
 }
 .servicios a {
-  font-size: 170px;
+  font-size: 113px;
   color: #cfd704;
-  padding-left: 110px;
+  padding-left: 270px;
 }
 .contactanos a {
   font-size: 50px;
@@ -278,6 +278,9 @@ button:last-child {
 .contactototal {
   display: flex;
   padding-top: 80px;
+}
+.contactototal a :hover {
+  color: #cfd704;
 }
 .contactototal a {
   text-decoration: underline;
