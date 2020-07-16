@@ -4,6 +4,12 @@
   src: url("../assets/fonts/Telegraf-Regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: "neue";
+  src: url("../assets/SaolDisplay-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
 /****************************************
 *    Variables
 *****************************************/
@@ -14,6 +20,7 @@
   --secondary: #cfd704;
   /* Typography */
   --font-family: "Telegraf";
+  --font-family-neue: "neue";
 }
 
 /****************************************
@@ -40,27 +47,43 @@ a {
 .header img {
   max-width: 55px;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   font-size: 20px;
-  padding-top: 25px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-right: 60px;
   padding-left: 60px;
   max-width: 100vw;
   margin: 0 auto;
 }
-
+.img {
+  width: 100%;
+  padding-bottom: 100px;
+}
+.tablas {
+  padding-top: 30px;
+}
 .quienes a {
   font-size: 113px;
   color: #cfd704;
 }
+
+.principios a {
+  font-size: 113px;
+  color: #cfd704;
+}
+
 .servicios a {
   font-size: 113px;
   color: #cfd704;
   padding-left: 270px;
+}
+.titulos {
+  padding-top: 80px;
 }
 .contactanos a {
   font-size: 50px;
@@ -71,12 +94,12 @@ a {
   padding-top: 20px;
 }
 .parrafoc {
-  padding-top: 20px;
+  padding-top: 5px;
   padding-left: 60px;
 }
 .parrafoc p {
   padding-top: 5px;
-  font-size: 17px;
+  font-size: 16px;
 }
 .logo {
   display: flex;
@@ -88,8 +111,8 @@ a {
   border-top-style: solid;
   border-bottom-style: solid;
   border-width: 0.5px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .columna3 {
   padding-left: 120px;
@@ -101,21 +124,35 @@ a {
 }
 
 .quienes p {
-  font-size: 22px;
-  padding-top: 25px;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 345px;
+  padding-right: 200px;
+}
+
+.principios p {
+  font-size: 16px;
+  padding-top: 20px;
   padding-left: 345px;
   padding-right: 200px;
 }
 .servicios p {
-  font-size: 27px;
+  font-size: 20px;
 }
 
 .quienes {
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 20px;
+  padding-bottom: 60px;
 }
 
+.principios {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
 .servicios {
   padding-left: 60px;
   padding-right: 60px;
@@ -135,7 +172,8 @@ a {
 
 /* Footer */
 .footer {
-  margin-top: 6em;
+  margin-top: 4em;
+  padding-bottom: 15px;
 }
 
 .footer p {
@@ -284,7 +322,7 @@ button:last-child {
 }
 .contactototal a {
   text-decoration: underline;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .contactoinfo {
