@@ -137,7 +137,7 @@ a {
   padding-right: 200px;
 }
 .servicios p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .quienes {
@@ -150,7 +150,7 @@ a {
 .principios {
   padding-left: 60px;
   padding-right: 60px;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 60px;
 }
 .servicios {
@@ -362,4 +362,70 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #cfd704;
+}
+
+details {
+  margin: 0 auto;
+  position: relative;
+  font-size: 22px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+details + details {
+  padding-top: 10px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: white;
+  border-bottom-color: white;
+}
+
+details p {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+summary:focus {
+  outline: none;
+  color: #cfd704;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.control-icon {
+  fill: #cfd704;
+  transition: 0.3s ease;
+  pointer-events: none;
+}
+
+.control-icon-close {
+  display: none;
+}
+
+details[open] .control-icon-close {
+  display: initial;
+  transition: 0.3s ease;
+}
+
+details[open] .control-icon-expand {
+  display: none;
+}
+
+details[open] summary:hover::after {
+  animation: pulse 1s ease;
 }
