@@ -82,6 +82,11 @@ a {
   color: #cfd704;
   padding-left: 270px;
 }
+.gracias a {
+  font-size: 60px;
+  color: #cfd704;
+  padding-left: 290px;
+}
 .titulos {
   padding-top: 80px;
 }
@@ -139,7 +144,12 @@ a {
 .servicios p {
   font-size: 16px;
 }
-
+.gracias p {
+  font-size: 16px;
+  padding-left: 42%;
+  padding-top: 20px;
+  padding-bottom: 330px;
+}
 .quienes {
   padding-left: 60px;
   padding-right: 60px;
@@ -268,26 +278,6 @@ a {
   transform: translatex(100%);
 }
 
-button {
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-button:hover {
-  opacity: 0.5;
-}
-
-button:first-child {
-  order: 1;
-}
-
-button:last-child {
-  order: 3;
-  transform: rotate(180deg);
-}
-
 /****************************************
 *    Proyecto
 *****************************************/
@@ -326,7 +316,7 @@ button:last-child {
 }
 
 .contactoinfo {
-  padding-left: 390px;
+  padding-left: 570px;
 }
 
 .subtit {
@@ -338,7 +328,7 @@ button:last-child {
 input[type="text"],
 select,
 textarea {
-  width: 113%;
+  width: 170%;
   font-family: var(--font-family);
   background-color: #000000;
   color: var(--primary);
@@ -351,7 +341,7 @@ textarea {
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-input[type="submit"] {
+button {
   background-color: white;
   color: black;
   padding: 12px 20px;
@@ -360,7 +350,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+button:hover {
   background-color: #cfd704;
 }
 
