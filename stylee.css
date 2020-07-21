@@ -527,8 +527,8 @@ details[open] summary:hover::after {
     justify-content: space-between;
     align-items: flex-end;
     font-size: 13.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
 
@@ -552,5 +552,398 @@ details[open] summary:hover::after {
   .logo a {
     padding-bottom: 4px;
     padding-left: 7px;
+  }
+  .img {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .quienes a {
+    font-size: 37.5px;
+    color: #cfd704;
+  }
+  .quienes p {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 60px;
+  }
+  .quienes {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 140px;
+  }
+  .footer p {
+    /*  color: rgb(78, 78, 248); */
+    font-size: 11px;
+    font-family: var(--font-family-light);
+    padding-left: 20px;
+  }
+  .servicios a {
+    font-size: 57px;
+    color: #cfd704;
+    padding-left: 0px;
+    padding-bottom: 60px;
+  }
+  .principios a {
+    font-size: 57px;
+    color: #cfd704;
+  }
+  .principios p {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 50px;
+  }
+  .principios {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .servicios {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 160px;
+  }
+  .contactanos a {
+    font-size: 37.5px;
+    color: #cfd704;
+    padding-left: 20px;
+  }
+  .parrafoc {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 100px;
+  }
+  .parrafoc p {
+    padding-top: 5px;
+    font-size: 14px;
+    padding-right: 0px;
+  }
+  .contactototal {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .contactocontenido {
+    padding-left: 20px;
+    padding-right: 200px;
+  }
+  .contactoinfo {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+  }
+  .subtit {
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 35px;
+  }
+  .contactototal a {
+    text-decoration: underline;
+    font-size: 13.5px;
+  }
+  .gracias a {
+    font-size: 27.5px;
+    color: #cfd704;
+    padding-left: 20px;
+  }
+  .gracias p {
+    font-size: 16px;
+    padding-left: 60px;
+    padding-top: 0px;
+    padding-bottom: 500px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 13.5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin: 0 auto;
+  }
+  .header a {
+    font-size: 13.5px;
+  }
+  .header img {
+    max-width: 35px;
+  }
+  .nav > * {
+    padding-left: 7px;
+    padding-bottom: 4px;
+  }
+  .nav {
+    padding: 0;
+    font-family: var(--font-family-italic);
+    padding-bottom: 4px;
+  }
+  .logo a {
+    padding-bottom: 4px;
+    padding-left: 7px;
+  }
+  .img {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .quienes a {
+    font-size: 37.5px;
+    color: #cfd704;
+  }
+  .quienes p {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 60px;
+  }
+  .quienes {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+  .footer p {
+    /*  color: rgb(78, 78, 248); */
+    font-size: 11px;
+    font-family: var(--font-family-light);
+    padding-left: 20px;
+  }
+  .servicios a {
+    font-size: 57px;
+    color: #cfd704;
+    padding-left: 30px;
+    padding-bottom: 60px;
+  }
+  .principios a {
+    font-size: 57px;
+    color: #cfd704;
+  }
+  .principios p {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 70px;
+  }
+  .principios {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .servicios {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+  .contactanos a {
+    font-size: 37.5px;
+    color: #cfd704;
+    padding-left: 20px;
+  }
+  .parrafoc {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 100px;
+  }
+  .parrafoc p {
+    padding-top: 5px;
+    font-size: 14px;
+    padding-right: 0px;
+  }
+  .contactototal {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .contactocontenido {
+    padding-left: 20px;
+    padding-right: 200px;
+  }
+  .contactoinfo {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+  }
+  .subtit {
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 35px;
+  }
+  .contactototal a {
+    text-decoration: underline;
+    font-size: 13.5px;
+  }
+  .gracias a {
+    font-size: 27.5px;
+    color: #cfd704;
+    padding-left: 40px;
+  }
+  .gracias p {
+    font-size: 16px;
+    padding-left: 80px;
+    padding-top: 0px;
+    padding-bottom: 420px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 11px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin: 0 auto;
+  }
+  .header a {
+    font-size: 11px;
+  }
+  .header img {
+    max-width: 30px;
+  }
+  .nav > * {
+    padding-left: 5px;
+    padding-bottom: 4px;
+  }
+  .nav {
+    padding: 0;
+    font-family: var(--font-family-italic);
+    padding-bottom: 4px;
+  }
+  .logo a {
+    padding-bottom: 4px;
+    padding-left: 5px;
+  }
+  .img {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .quienes a {
+    font-size: 32px;
+    color: #cfd704;
+  }
+  .quienes p {
+    font-size: 14px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 60px;
+  }
+  .quienes {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .footer p {
+    /*  color: rgb(78, 78, 248); */
+    font-size: 9px;
+    font-family: var(--font-family-light);
+    padding-left: 20px;
+  }
+  .servicios a {
+    font-size: 50px;
+    color: #cfd704;
+    padding-left: 0px;
+    padding-bottom: 60px;
+  }
+  .principios a {
+    font-size: 57px;
+    color: #cfd704;
+  }
+  .principios p {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 50px;
+  }
+  .principios {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .servicios {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+  .contactanos a {
+    font-size: 37.5px;
+    color: #cfd704;
+    padding-left: 20px;
+  }
+  .parrafoc {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 70px;
+  }
+  .parrafoc p {
+    padding-top: 5px;
+    font-size: 14px;
+    padding-right: 0px;
+  }
+  .contactototal {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .contactocontenido {
+    padding-left: 20px;
+    padding-right: 180px;
+  }
+  .contactoinfo {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+  }
+  .subtit {
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 35px;
+  }
+  .contactototal a {
+    text-decoration: underline;
+    font-size: 13.5px;
+  }
+  .gracias a {
+    font-size: 27.5px;
+    color: #cfd704;
+    padding-left: 40px;
+  }
+  .gracias p {
+    font-size: 16px;
+    padding-left: 80px;
+    padding-top: 0px;
+    padding-bottom: 420px;
+  }
+  .footer {
+    margin-top: 1em;
+    padding-bottom: 15px;
+  }
+  details {
+    margin: 0 auto;
+    position: relative;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    box-sizing: border-box;
+    transition: all 0.3s;
   }
 }
